@@ -1,0 +1,5 @@
+ENV = DEVELOPMENT
+DATABASE = mongodb://localhost/ChatOnWebSocket
+PORT = 8000
+SALT = SomeStrangeRandomSymbols
+SECRET = SomeMoreStrangeRandomSymbols
