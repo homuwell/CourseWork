@@ -1,0 +1,110 @@
+.chatroomPage {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: -8px;
+}
+.users {
+    width: 200px;
+    height: 80vh;
+    grid-row-start: 1;
+    grid-column-end: 1;
+    margin-right: 5vh;
+    white-space: pre-wrap;
+}
+.chatroomSection {
+    width: 40vw;
+    height: 80vh;
+    margin: auto;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+.chatroomContent {
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    right: 0;
+    bottom: 3.5rem;
+    padding-left: 0.5rem;
+}
+
+.chatroomActions {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 72px;
+    grid-gap: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.chatroomActions button {
+    height: 100%;
+}
+
+.message {
+    margin-bottom: 0.5rem;
+}
+
+.otherMessage {
+    color: #0099cc;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ownMessage {
+    color: #00cc00;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.user {
+    text-align:left;
+}
+.online {
+    width: 10px;
+    height: 10px;
+    background: lawngreen;
+    border-radius: 50%;
+}
+
+.online {
+    width: 10px;
+    height: 10px;
+    background: lawngreen;
+    border-radius: 50%;
+    float: right;
+}
+
+.offline {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    float: right;
+}
+.usersHeader {
+    text-align:center;
+}
+.chatroomMessages {
+    width: 40vw;
+    height: 69vh;
+    position: relative;
+    overflow: auto;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.date {
+    margin-bottom: -10px;
+    top: 100px;
+}
+.msg {
+    position: relative;
+    font-size:25px;
+    display:inline;
+}
